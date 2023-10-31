@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Rule2</name>
+  <uuid>44abebc9-967d-44fe-a5e5-156adb65b33f</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	Input is "Test"
+then
+	set decision to "Correct";
+else
+	set decision to "Incorrect";]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
